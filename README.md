@@ -36,9 +36,10 @@ All user stories noted on the [project overview page](https://www.freecodecamp.o
 
 ### Built with
 
-- Semantic HTML5 markup
-- Flexbox
 - Vanilla JavaScript
+- Semantic HTML5 markup
+- CSS custom variables
+- Flexbox
 
 ## Author
 
