@@ -1,33 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Palindrome Checker</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
-  <div class="container">
-    <header>
-      <h1 class="title">Is it a Palindrome?</h1>
-      <p class="subtitle">A FreeCodeCamp Certification Project</p>
-    </header>
-    <main class="main">
-      <form id="form" class="form">
-          <label for="text-input">Enter text to check it for a palindrome</label>
-          <input id="text-input"class="text-input" type="text">
-          <button id="check-btn" class="button">Check</button>
-      </form>
-      <p id="result-message" class="result-message"></p>
-      <div class="definition-container">
-        <p>A <em>palindrome</em> is a word or sentence that is spelled the same way both forward and backward, ignoring punctuation, case, and spacing.</p>
-      </div>
-    </main>
-  </div>
-  
-  <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Palindrome Checker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="title">Is it a Palindrome?</h1>
+        <p class="subtitle">A FreeCodeCamp Certification Project</p>
+      </header>
+      <main class="main">
+        <div class="form-wrapper">
+          <form id="form" class="form">
+            <label for="text-input"
+              >Enter text to check it for a palindrome</label
+            >
+            <input
+              id="text-input"
+              class="text-input"
+              type="text"
+              placeholder="Enter your text..." />
+            <button id="check-btn" class="button">Check</button>
+          </form>
+          <div id="result" class="result-message">
+            <!-- <p><strong>Race car</strong> is a palindrome.</p> -->
+          </div>
+        </div>
+        <div class="definition-container">
+          <p>
+            A <em>palindrome</em> is a word or sentence that is
+            spelled the same way both forward and backward, ignoring
+            punctuation, case, and spacing.
+          </p>
+        </div>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>

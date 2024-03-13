@@ -85,17 +85,29 @@ body {
   place-content: center;
 }
 
-.form,
+.form-wrapper,
 .definition-container {
   width: min(90vw, 500px);
   margin-top: 2rem;
   padding: 1.5rem;
 }
 
-.form {
+/* .form,
+.definition-container {
+  width: min(90vw, 500px);
+  margin-top: 2rem;
+  padding: 1.5rem;
+} */
+
+.form-wrapper {
+
   color: var(--clr-black);
   background-color: var(--clr-white);
   border-radius: var(--br-rounded);
+}
+
+.form {
+  margin-bottom: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;

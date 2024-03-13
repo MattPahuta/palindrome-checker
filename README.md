@@ -24,13 +24,12 @@ All user stories noted on the [project overview page](https://www.freecodecamp.o
 
 ### Screenshot
 
-![]()
+![](./project-ss.png)
 
 
 ### Links
 
-- [FreeCodeCamp](https://scrimba.com/scrim/c3aD3Duy)
-- [Live Site](https://chipper-clafoutis-3cae74.netlify.app/)
+- [FreeCodeCamp Challenge Hub](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/build-a-palindrome-checker-project/build-a-palindrome-checker)
 
 ## My process
 
